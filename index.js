@@ -5,6 +5,11 @@ function takeANumber(katzDeliLine, name) {
     return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
 }
 
+var katzDeliLine = 1
+function takeANumber()  {
+  katzDeliLine += 1
+}
+
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return "There is nobody waiting to be served!"
